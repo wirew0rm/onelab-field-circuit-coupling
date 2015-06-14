@@ -1,0 +1,19 @@
+% 0.1b1
+%
+% A simple RLC circuit with linear resistor and capacitance
+%
+Mvoltagesources DC 2 1
+1 1
+V
+4000
+1 0
+Mgetdp inductor 2 0
+1 0
+2 0
+END
+Mresistors LIN  2 1
+1 1
+R
+500
+1 2
+END
